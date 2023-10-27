@@ -1,0 +1,81 @@
+.task-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.task-card h3 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.task-card p {
+  margin-top: 5px;
+}
+
+.button-container {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.complete-button,
+.delete-button {
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.complete-button {
+  background-color: green;
+}
+
+.delete-button {
+  background-color: red;
+}
+
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.task-card {
+  flex-basis: 85%;
+}
+.navbar {
+  width: 100%;
+  background-color: #007bff;
+  justify-content: center;
+}
+
+.navbar .add-task-form {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.navbar .add-task-form input {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.navbar .add-task-form button {
+  margin-right: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-container button {
+  margin: 5px;
+}
